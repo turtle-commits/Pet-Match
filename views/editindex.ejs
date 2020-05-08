@@ -1,0 +1,23 @@
+<%- include("partials/header"); %>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 style="font-family: 'Pacifico',cursive;"> Dog Editor</h1>
+            <p>Edit details about your favourite dog here</p>
+            <a href="/dogs" class="btn btn-warning">Cancel</a>
+        </div>
+        <div class="row" style="display:flex;flex-wrap:wrap">
+                <%dogs.forEach(function(dogs){%>
+                    <div class="col-md-4">
+                        <div class="thumbnail" style="text-align:center;">
+                            <img src="<%= dogs.url %>">
+                        </br>
+                            <div >
+                                <a class="btn btn-warning" href="/dogs/<%=dogs._id %>/edit" class="caption" style="font-weight:700;">Edit <%=dogs.name%></a>
+                                <a class="btn btn-danger" href="/dogs/<%=dogs._id %>/delete" class="caption" style="font-weight:700;">Delete <%=dogs.name%></a>
+                            </div>
+                       </div>
+                    </div>
+                <%});%> 
+        </div>
+    </div>
+<%- include("partials/footer"); %>
