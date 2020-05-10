@@ -10,20 +10,20 @@ These instructions will help you in starting the project once you have cloned it
 If you have MongoDB already installed then it's well and good else you can download it by clicking here 
 ([MongoDB](https://www.mongodb.com/))
 
-* Know open GIT Bash terminal in the folder where you have cloned Pet-Match and run the following commands.
-These commands will install the require packages which you need to have for running the project.
+* Now open GIT Bash terminal in the folder where you have cloned Pet-Match and run the following commands.
+These commands will install the required packages which you need to have for running the project.
 
 ```
 npm init
-npm install  ejs --save
-npm install  body-parser --save
-npm install  express --save
-npm install  express-session --save
-npm install  method-override --save
-npm install  mongoose --save
-npm install  passport --save
-npm install  passport-local --save
-npm install  passport-local-mongoose --save
+npm install ejs --save
+npm install body-parser --save
+npm install express --save
+npm install express-session --save
+npm install method-override --save
+npm install mongoose --save
+npm install passport --save
+npm install passport-local --save
+npm install passport-local-mongoose --save
 ```
 
 ## Deployment
