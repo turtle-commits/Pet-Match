@@ -26,7 +26,7 @@ npm install  passport-local --save
 npm install  passport-local-mongoose --save
 ```
 
-##Deployment
+## Deployment
 * In order to start the server start **mongod** present in **C:\Program Files\MongoDB\Server\4.2\bin** if
 you installed MongoDB with the default settings else procede to the folder where you installed
 MongoDB and find mongod accordingly.
