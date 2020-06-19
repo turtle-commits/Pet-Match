@@ -14,16 +14,7 @@ If you have MongoDB already installed then it's well and good else you can downl
 These commands will install the required packages which you need to have for running the project.
 
 ```
-npm init
-npm install ejs --save
-npm install body-parser --save
-npm install express --save
-npm install express-session --save
-npm install method-override --save
-npm install mongoose --save
-npm install passport --save
-npm install passport-local --save
-npm install passport-local-mongoose --save
+npm install 
 ```
 
 ## Deployment
