@@ -11,7 +11,7 @@ If you have MongoDB already installed then it's well and good else you can downl
 ([MongoDB](https://www.mongodb.com/))
 
 * Now open GIT Bash terminal in the folder where you have cloned Pet-Match and run the following commands.
-These commands will install the required packages which you need to have for running the project.
+These commands will install the required packages which you need to have for running the project
 
 ```
 npm install 
